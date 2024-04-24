@@ -1,4 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
+
+<string, double>
+<int, string>
+
+Dictionary<string, int> myScoreBoard = new Dictionary<string, int>();
+
+myScoreBoard.Add("firstInning", 10);
+myScoreBoard.Add("secondInning", 20);
+myScoreBoard.Add("thirdInning", 30);
+myScoreBoard.Add("fourthInning", 40);
+myScoreBoard.Add("fifthInning", 50);
 
 namespace CatWorx.BadgeMaker
 {
